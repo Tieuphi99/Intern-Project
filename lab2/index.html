@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="index_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="body1">
+        <div>
+            <select name="employee" id="employee">
+                <option value="0">Hieu Dang</option>
+                <option value="1">Hung Vu</option>
+                <option value="2">Thong Phung</option>
+            </select>
+        </div>
+        <div id="infowrapper">
+            <p class="info"></p>
+        </div>
+    </div>
+    <div id="body2">
+        <button id="add" onclick="callDiv()">Add user</button>
+        <div id="form" style="display: none;">
+            <table class="form">
+                <tbody>
+                    <tr>
+                        <td><p class="title">Name:</p></td>
+                        <th><input type="text" name="name" class="input" id="name"></th>
+                    </tr>
+                    <tr>
+                        <td><p class="title">Age:</p></td>
+                        <th><input type="text" name="age" class="input" id="age"></th>
+                    </tr>
+                    <tr>
+                        <td><p class="title">Job:</p></td>
+                        <th><input type="text" name="job" class="input" id="job"></th>
+                    </tr>
+                    <tr>
+                        <td><button onclick="addOption()">Submit</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button id="remove" onclick="removeOption()">Remove current user</button>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

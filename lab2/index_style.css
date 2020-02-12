@@ -1,0 +1,54 @@
+#remove {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    margin: 0px 0px 15px 0px;
+}
+
+.input {
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+#form {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 0.5px solid black;
+    padding: 10px;
+}
+
+#body2 {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#add {
+    margin-top: 10px;
+}
+
+#infowrapper {
+    align-items: center;
+    height: 30px;
+}
+
+.info {
+    padding-left: 10px;
+    margin: 0px 0px 0px 10px;
+    width: 305px;
+    line-height: 30px;
+    background-color: gray; 
+}
+
+#body1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#employee {
+    width: 300px;
+    padding: 5px 0px;
+}
