@@ -1,0 +1,339 @@
+#foot {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 960px;
+    height: 60px;
+}
+
+#foot2 {
+    align-self: right;
+    float: right;
+    margin: 0px;
+}
+
+#foot1 {
+    float: left;
+    margin: 0px;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin: 0;
+    height: 60px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+#submit {
+    background-color: rgb(118, 195, 143);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#message {
+    width: 213px;
+    border-radius: 10px;
+    padding: 12px 0px;
+    padding-left: 12px;
+    height: 56px;
+    resize: none;
+    border: none;
+    font-family: Arial;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 5px;
+}
+
+#txt1 {
+    width: 213px;
+    border-radius: 10px;
+    padding: 12px 0px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+
+#rndtxt {
+    color: rgb(152, 152, 152);
+}
+
+input {
+    height: 11px;
+    width: 100%;
+    border: 0;
+    background-color: rgb(34, 34, 34);
+}
+
+#qlcontent {
+    color: rgb(118, 195, 143);
+}
+
+#readmoreend {
+    color: rgb(118, 195, 143);
+    font-size: 1.3em;
+}
+
+h3 {
+    color: rgb(118, 195, 143);
+    margin-bottom: 17px;
+}
+
+#ftb {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 37px;
+}
+
+#end2 {
+    width: 225px;
+    margin-top: 41px;
+    margin-left: 20px;
+    float: left;
+}
+
+#end1 {
+    width: 225px;
+    margin-top: 41px;
+    float: left;
+}
+
+#content3 {
+    margin: auto;
+    height: 387px;
+    width: 960px;
+    background-color: rgb(48, 48, 48);
+}
+
+#body3 {
+    margin: 0px;
+    background-color: rgb(48, 48, 48);
+}
+
+.lorem {
+    width: 290px;
+    height: 30px;
+    background-color: rgb(21, 21, 21);
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+#rat2919_1 {
+    display: flex;
+    align-items: flex-end;
+    float: left;
+    margin-top: 30px;
+    height: 190px;
+    width: 290px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+#rat2919_1:hover, #rat2919_1:hover > .lorem {
+    border-color: rgb(118, 195, 143);
+    background-color: rgb(53, 53, 53);
+    color: transparent;
+    cursor: pointer;
+}
+
+#rat2919_2 {
+    display: flex;
+    align-items: flex-end;
+    float: left;
+    margin-top: 30px;
+    height: 190px;
+    width: 290px;
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+#rat2919_2:hover, #rat2919_2:hover > .lorem {
+    border-color: rgb(118, 195, 143);
+    background-color: rgb(53, 53, 53);
+    color: transparent;
+    cursor: pointer;
+}
+
+#line {
+    float: left;
+    margin-top: 63px;
+    height: 3px;
+    width: 352px;
+    background-color: rgb(48, 48, 48);
+}
+
+#lastest {
+    float: left;
+    font-size: 2em;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 48px;
+    width: 256px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    line-height: 48px;
+}
+
+.randomtxt {
+    font-size: 0.9em;
+    width: 170px;
+    margin: auto;
+    text-align: center;
+}
+
+#servicetitle {
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+}
+
+#rat120 {
+    margin-top: 20px;
+    margin-left: 53px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(51, 51, 51);
+}
+
+#one {
+    margin-top: 60px;
+    float: left;
+    height: 305px;
+    width: 225px;
+    background-color: white;
+}
+
+#one:hover {
+    background-color: rgb(118, 195, 143);
+    color: white;
+    cursor: pointer;
+}
+
+#two {
+    margin-top: 60px;
+    margin-left: 20px;
+    float: left;
+    height: 305px;
+    width: 225px;
+    background-color: white;
+}
+
+#two:hover {
+    background-color: rgb(118, 195, 143);
+    color: white;
+    cursor: pointer;    
+}
+
+#content2 {
+    margin: auto;
+    height: 970px;
+    width: 960px;
+    background-color: rgb(150, 18, 18);
+}
+
+#body2 {
+    margin: 0px;
+    background-color: rgb(150, 18, 18);
+}
+
+#headerheadtext {
+    font-size: 3em;
+    margin: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+#headtext {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 430px;
+    margin-left: 60px;
+    float: left;
+    width: 315px;
+}
+
+#circle {
+    float: right;
+    margin-right: 60px;
+    border-radius: 50%;
+    width: 430px;
+    height: 430px;
+    background-color: grey;
+}
+
+#content1 {
+    width: 960px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(41, 0, 0);
+    color: white;
+}
+
+#body1 {
+    margin: 0px;
+    background-color: rgb(41, 0, 0);
+}
+
+body {
+    margin: 0;
+}
+
+#name {
+    float: left;
+}
+
+#homepage {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+#options {
+    float: right;
+    width: 636px;
+    margin-top: 40px;
+}
+
+#home {
+    border-radius: 10px;
+    background-color: rgb(118, 195, 143);
+}
+
+#readmore {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(118, 195, 143);
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tableformat {
+    border: saddlebrown;
+    width: 636px;
+    text-align: center;
+}
+
+.rowformat {
+    height: 36px;
+}
