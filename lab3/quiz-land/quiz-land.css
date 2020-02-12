@@ -1,0 +1,151 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.headbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+.home {
+    height: 50px;
+    position: relative;
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.flower {
+    height: 75px;
+    position: relative;
+}
+
+.coin {
+    height: 50px;
+    position: relative;
+    right: 100px;
+    z-index: 1;
+}
+
+.number {
+    position: absolute;
+}
+
+.point-wrapper {
+    position: absolute;
+    right: 30px;
+    color: white;
+    width: 92px;
+    height: 44px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-wrapper {
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+#timer {
+    color: black;
+}
+
+.quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-img {
+    margin-top: 20px;
+    padding: 2px;
+    border: 1px solid cadetblue;
+    width: 35%;
+    height: 35%;
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.answers-wrapper {
+    margin-top: 20px;
+    width: 400px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#first-answer {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(35, 147, 223);
+    font-size: 30px;
+    width: 160px;
+    height: 60px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+#second-answer {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(246, 21, 41);
+    font-size: 30px;
+    width: 160px;
+    height: 60px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+#third-answer {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(77, 214, 53);
+    font-size: 30px;
+    width: 160px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+#forth-answer {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(246, 208, 21);
+    font-size: 30px;
+    width: 160px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+}

@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderimg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderimg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/images/icon/border.png) 30 round;
+    height: 320px;
+    width: 500px;
+    z-index: 1;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulose {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: rgb(30, 148, 229);
+}
+
+.dollar-and-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.dollar {
+    height: 50px;
+    width: 50px;
+}
+
+#point {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin: 0;
+    color: rgb(243, 232, 0);
+}
+
+.high-score {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 24, 189);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ribbon {
+    position: absolute;
+    left: 422px;
+    height: 65px;
+    width: 65px;
+}
+
+.btn-replay-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.replay {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    font-size: 40px;
+    width: 350px;
+    height: 80px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+.replay-icon {
+    position: absolute;
+    left: 40px;
+    height: 50px;
+    width: 50px;
+}

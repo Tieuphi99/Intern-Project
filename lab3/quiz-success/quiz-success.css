@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderimg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderimg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/images/icon/border.png) 30 round;
+    height: 360px;
+    width: 700px;
+    z-index: 1;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urtalented {
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(30, 148, 229);
+}
+
+.coin-and-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.coin {
+    height: 50px;
+    width: 50px;
+}
+
+#point {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin: 0;
+    color: rgb(243, 232, 0);
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fb {
+    height: 80px;
+    width: 80px;
+}
+
+.twt {
+    height: 80px;
+    width: 80px;
+}
+
+.addax-and-next {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.ribbon {
+    position: absolute;
+    left: 402px;
+    height: 65px;
+    width: 65px;
+}
+
+.addax {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(35, 147, 223);
+    font-size: 40px;
+    width: 240px;
+    height: 80px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+.btn-next-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.next {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: rgb(225, 0, 190);
+    font-size: 40px;
+    width: 240px;
+    height: 80px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+.next-icon {
+    position: absolute;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+}

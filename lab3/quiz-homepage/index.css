@@ -1,0 +1,71 @@
+body {
+  background-color: cadetblue;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quiz-title {
+  width: 384px;
+}
+
+.quiz-types {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.type-land {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.type-sea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.type-sky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.land {
+  width: 256px;
+  height: 256px;
+}
+
+.land-title {
+  width: 256px;
+}
+
+.sea {
+  width: 256px;
+  height: 256px;
+}
+
+.sea-title {
+  width: 256px;
+}
+
+.sky {
+  width: 256px;
+  height: 256px;
+}
+
+.sky-title {
+  width: 256px;
+}
