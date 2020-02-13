@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+.content {
+    position: relative;
+}
+
+.blue-circle {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    padding: 10px;
+    background-color: rgba(41, 143, 216, 0.7);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.purple-circle {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    padding: 10px;
+    background-color: rgba(234, 32, 163, 0.7);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.yellow-circle {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    padding: 10px;
+    background-color: rgba(255, 205, 99, 0.7);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.sort-to-see {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    cursor: default;
+}
+
+#all {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+#blue {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 143, 216);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#purple {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(234, 32, 163);
+    font-weight: bold;
+}
+
+#yellow {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 205, 99);
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px;
+    font-weight: bold;
+}
+
+.content {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.arrow {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: default;
+}

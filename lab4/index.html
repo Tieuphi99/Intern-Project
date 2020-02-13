@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Pictures Filter</title>
+</head>
+
+<body>
+    <div class="filter">
+        <div class="sort-to-see">SORT TO SEE</div>
+        <div class="arrow">></div>
+        <button id="all" onclick="filterSelection('all')">ALL</button>
+        <button id="blue" onclick="filterSelection('blueimg')">RAPHAEL THIERRY</button>
+        <button id="purple" onclick="filterSelection('purpleimg')">KLAUS RAMKA</button>
+        <button id="yellow" onclick="filterSelection('yellowimg')">PAOLO CARI</button>
+    </div>
+    <div class="pictures">
+        <div class="content blueimg">
+            <img src="/images/artwork1.jpeg">
+            <div class="blue-circle"></div>
+        </div>
+        <div class="content purpleimg">
+            <img src="/images/artwork2.jpeg">
+            <div class="purple-circle"></div>
+        </div>
+        <div class="content yellowimg">
+            <img src="/images/artwork3.jpeg">
+            <div class="yellow-circle"></div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
